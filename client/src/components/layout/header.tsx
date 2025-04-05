@@ -27,7 +27,7 @@ const Header = ({ onJoinWaitlist }: HeaderProps) => {
   };
 
   return (
-    <header className={`fixed w-full ${isScrolled ? 'bg-[#FFF9EA]/90' : 'bg-[#FFF9EA]/80'} backdrop-blur-md z-50 transition-all duration-300`}>
+    <header className={`fixed w-full ${isScrolled ? 'bg-[#FFF9EA]/80' : 'bg-[#FFF9EA]/70'} backdrop-blur-md z-50 transition-all duration-300`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">

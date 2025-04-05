@@ -42,15 +42,31 @@ const Home = () => {
                   transition={{ duration: 0.5, delay: 0.2 }}
                   className="text-3xl md:text-4xl text-gray-600 mb-8"
                 >
-                  Everything you need, all in one place.  
+                  ForkIt, the smartest menu navigation tool ever.  
                 </motion.p>
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
-                  className="text-lg text-gray-600 mb-8"
+                  className="text-3xl md:text-4xl text-gray-600 mb-8"
                 >
-                  With ForkIt—the smartest, most user-friendly menu translator ever—you’ll eat better, spend smarter, and explore bolder.
+                  Learn everything about the menu with just one scan.  
+                </motion.p>
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                  className="text-xl text-gray-600 mb-8"
+                >
+                  Translation, pictures, taste description, story behind, personalized recommendation...
+                </motion.p>
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                  className="text-xl text-gray-600 mb-8"
+                >
+                  With ForkIt, you can eat better, spend smarter, and explore bolder.
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
