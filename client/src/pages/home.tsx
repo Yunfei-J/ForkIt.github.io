@@ -20,11 +20,11 @@ const Home = () => {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 overflow-x-hidden">
       <Header onJoinWaitlist={scrollToWaitlist} />
       {/* Full-width hero image */}
-      <div className="w-full h-screen bg-[#F3EDE0]/90 relative">
+      <div className="w-full h-screen relative">
         <img 
-          src="/client/public/images/Hero2.png" 
+          src="/images/Hero.png" 
           alt="Landing page hero"
-          className="w-full h-full object-cover mx-auto block" 
+          className="w-full h-full object-cover"
         />
         </div>
 
@@ -40,33 +40,17 @@ const Home = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
-                  className="text-3xl md:text-4xl text-gray-600 mb-8"
+                  className="text-lg text-gray-600 mb-8"
                 >
-                  ForkIt, the smartest menu navigation tool ever.  
+                  Everything you need, all in one place.  
                 </motion.p>
                 <motion.p
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
-                  className="text-3xl md:text-4xl text-gray-600 mb-8"
+                  className="text-lg text-gray-600 mb-8"
                 >
-                  Learn everything about the menu with just one scan.  
-                </motion.p>
-                <motion.p
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                  className="text-xl text-gray-600 mb-8"
-                >
-                  Translation, pictures, taste description, story behind, personalized recommendation...
-                </motion.p>
-                <motion.p
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                  className="text-xl text-gray-600 mb-8"
-                >
-                  With ForkIt, you can eat better, spend smarter, and explore bolder.
+                  With ForkIt—the smartest, most user-friendly menu translator ever—you’ll eat better, spend smarter, and explore bolder.
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -111,7 +95,7 @@ const Home = () => {
                 <div className="absolute -top-16 -left-16 w-32 h-32 bg-amber-300 rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-pink-300 rounded-full opacity-20 animate-[bounce_3s_infinite]"></div>
                 <img
-                  src="/client/public/images/thumbnail.png"
+                  src="/images/thumbnail.png"
                   alt="Startup team working together"
                   className="w-full h-auto rounded-2xl shadow-xl z-10 relative"
                 />

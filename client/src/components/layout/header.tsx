@@ -27,12 +27,12 @@ const Header = ({ onJoinWaitlist }: HeaderProps) => {
   };
 
   return (
-    <header className={`fixed w-full ${isScrolled ? 'bg-[#FFF9EA]/80' : 'bg-[#FFF9EA]/70'} backdrop-blur-md z-50 transition-all duration-300`}>
+    <header className={`fixed w-full ${isScrolled ? 'bg-[#F3EDE0]/90' : 'bg-[#F3EDE0]/80'} backdrop-blur-md z-50 border-b border-gray-100 transition-all duration-300`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img 
-              src="/client/public/images/Asset 1.svg" 
+              src="/images/Asset 1.svg" 
               alt="ForkIt Logo" 
               className="w-10 h-10 mr-2 object-contain"
             />
