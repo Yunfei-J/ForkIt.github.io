@@ -60,7 +60,7 @@ const About = () => {
                 playsInline
                 className="mx-auto h-[70vh] w-auto rounded-3xl shadow-xl object-cover relative z-10"
               >
-                <source src="/videos/ScanAndConvert.mp4" type="video/mp4" />
+                <source src="/client/public/videos/ScanAndConvert.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-pink-200 rounded-full opacity-30"></div>
@@ -114,7 +114,7 @@ const About = () => {
                 playsInline
                 className="w-full rounded-3xl object-cover relative z-10"
               >
-                <source src="/videos/chatPreview.mp4" type="video/mp4" />
+                <source src="/client/public/videos/chatPreview.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-pink-200 rounded-full opacity-30"></div>

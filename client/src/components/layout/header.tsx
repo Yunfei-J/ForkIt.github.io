@@ -32,7 +32,7 @@ const Header = ({ onJoinWaitlist }: HeaderProps) => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img 
-              src="/images/Asset 1.svg" 
+              src="/client/public/images/Asset 1.svg" 
               alt="ForkIt Logo" 
               className="w-10 h-10 mr-2 object-contain"
             />

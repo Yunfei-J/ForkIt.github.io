@@ -127,7 +127,7 @@ var vite_config_default = defineConfig({
       "@assets": path.resolve(__dirname, "attached_assets")
     }
   },
-  root: path.resolve(__dirname, "client"),
+  root: __dirname,
   build: {
     outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true
@@ -171,12 +171,7 @@ async function setupVite(app2, server) {
   app2.use("*", async (req, res, next) => {
     const url = req.originalUrl;
     try {
-      const clientTemplate = path2.resolve(
-        __dirname2,
-        "..",
-        "client",
-        "index.html"
-      );
+      const clientTemplate = path2.resolve(process.cwd(), "index.html");
       let template = await fs.promises.readFile(clientTemplate, "utf-8");
       template = template.replace(
         `src="/src/main.tsx"`,
@@ -199,7 +194,7 @@ function serveStatic(app2) {
   }
   app2.use(express.static(distPath));
   app2.use("*", (_req, res) => {
-    res.sendFile(path2.resolve(distPath, "index.html"));
+    res.sendFile(path2.resolve(distPath, "..", "index.html"));
   });
 }
 

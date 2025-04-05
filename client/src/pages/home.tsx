@@ -22,7 +22,7 @@ const Home = () => {
       {/* Full-width hero image */}
       <div className="w-full h-screen bg-[#F3EDE0]/90 relative">
         <img 
-          src="/images/Hero2.png" 
+          src="/client/public/images/Hero2.png" 
           alt="Landing page hero"
           className="w-full h-full object-cover mx-auto block" 
         />
@@ -111,7 +111,7 @@ const Home = () => {
                 <div className="absolute -top-16 -left-16 w-32 h-32 bg-amber-300 rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-pink-300 rounded-full opacity-20 animate-[bounce_3s_infinite]"></div>
                 <img
-                  src="/images/thumbnail.png"
+                  src="/client/public/images/thumbnail.png"
                   alt="Startup team working together"
                   className="w-full h-auto rounded-2xl shadow-xl z-10 relative"
                 />
